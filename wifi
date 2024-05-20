@@ -3,4 +3,7 @@ $ nmcli connection add type wifi ifname wlan0 con-name VITC-HOS2-4 ssid VITC-HOS
 
 $ nmcli device status
 
-
+$ nmcli connection show 
+$ nmcli device wifi connect <SSID> 
+$ nmcli device wifi connect <SSID> password <passwd>
+$ nmcli device wifi list 
